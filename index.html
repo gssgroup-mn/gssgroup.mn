@@ -66,6 +66,9 @@
   @media (prefers-color-scheme: dark){ .btn{background:#1d4f8f; border-color:#1d4f8f} }
   .btn:hover{filter:brightness(1.12)}
   .meta{margin-top:26px; color:var(--muted); font-size:14px; font-weight:300; line-height:1.7}
+  .social{display:flex; justify-content:center; gap:22px; margin-bottom:14px}
+  .social a{display:inline-flex; align-items:center; gap:8px; color:var(--ink); text-decoration:none; font-size:14px; letter-spacing:.04em; opacity:.8}
+  .social a:hover{opacity:1; color:var(--accent)}
   footer{border-top:1px solid var(--line); padding:22px 16px; text-align:center; font-size:13px; color:var(--muted)}
 
   @media (max-width:640px){
@@ -125,6 +128,6 @@
   </section>
 </main>
 
-<footer>© GlobalSmart Solution LLC · Global Negdel Group</footer>
+<footer><nav class="social" aria-label="Сошиал хаягууд"><a href="https://www.facebook.com/share/1FJwMxwyCC/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-7.6h2.6l.4-3h-3V8.5c0-.9.3-1.5 1.6-1.5h1.6V4.3c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.2H7.9v3h2.6V21h3z"/></svg><span>Facebook</span></a><a href="https://www.instagram.com/gssmongolia" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1" fill="currentColor" stroke="none"/></svg><span>Instagram</span></a></nav><div>© GlobalSmart Solution LLC · Global Negdel Group</div></footer>
 </body>
 </html>
